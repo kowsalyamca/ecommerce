@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+}
+.ship{
+	font-size: 13px;
+}
+
+
+.fa-magnifying-glass{
+	background-color: red;
+	padding:10px 20px 5px 20px;
+	color: white;
+}
+.search1{
+	padding-top: 29px;
+
+}
+.search2{
+	padding-top: 30px;
+	
+}
+
+.fa-facebook{
+	border: 1px solid black;
+	border-radius: 100px;
+	padding: 9px 12px 9px 12px;
+	color: black;
+}
+.fa-twitter{
+     border: 1px solid black;
+	border-radius: 100px;
+	padding: 9px 10px 9px 10px;
+	color: black;
+}
+.fa-square-instagram{
+	border: 1px solid black;
+	border-radius: 100px;
+	padding: 9px 10px 9px 10px;
+	color: black;
+}
+.fa-youtube{
+	border: 1px solid black;
+	border-radius: 100px;
+	padding: 9px 8px 9px 8px;
+	color: black;
+}
+.cloths{
+	position: relative;
+
+}
+.cloths img{
+	width: 100%;
+}
+
+
+.cloths h1{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: white;
+    font-weight: bold;
+}
+
+.new h4, a{
+	font-size: 25px;
+}
+.wear1{
+	width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+ .wear2{
+ 	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color: white;
+	font-size: 20px;
+ }  
+
+
+.footwear1{
+	
+    height: auto;
+    position: relative;
+    
+}
+.footwear2{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.hand{
+	width: 100%;
+    height: auto;
+    position: relative;
+   
+}
+.bag{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	transform:translate(-50%,-50%) ;
+}
+/*********************For men*****************/
+
+.formen1{
+	margin-top: 40px;
+}
+.formen2{
+	margin-top: 30px;
+}
+.men{
+   
+    position: relative;
+   }
+.men1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%) ;
+	color: white;
+}
+/*************************WOMEN****************/
+
+.womens{
+	margin-top: 70px;
+}
+.women1{
+   
+    position: relative;
+   }
+.women2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%) ;
+	color: white;
+}
+@media only screen and (max-width:567px) {
+	.new{
+        margin-left: 120px;
+	}
+	.new h4, a{
+	font-size: 10px;
+
+}
+	
+}
+
+@media only screen and (max-width:768px) {
+.ship{
+	font-size: 9px;
+}
+.new{
+        margin-left: 40px;
+        
+}
+.new h4, a{
+	font-size: 18px;
+
+}
+.wear2{
+	font-size: 10px;
+}
+.new h4, a{
+	font-size: 15px;
+
+}
+
+}
